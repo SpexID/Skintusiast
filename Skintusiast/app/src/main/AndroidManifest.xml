@@ -12,6 +12,9 @@
         android:theme="@style/Theme.Skintusiast"
         tools:targetApi="31">
         <activity
+            android:name=".signup_activity"
+            android:exported="false" />
+        <activity
             android:name=".Signin_Activity"
             android:exported="false" />
         <activity
