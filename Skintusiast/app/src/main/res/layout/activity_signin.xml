@@ -58,7 +58,7 @@
         android:layout_height="2dp"
         android:layout_marginBottom="30dp"
         android:background="#000000"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -125,12 +125,12 @@
         android:layout_marginBottom="120dp"
         android:text="Don't have account?"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/btnregister"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnregiscamera"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:layout_marginBottom="30dp"
@@ -145,7 +145,7 @@
         tools:cornerRadius="20dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnregister"
         android:layout_width="142dp"
         android:layout_height="50dp"
         android:layout_marginBottom="104dp"

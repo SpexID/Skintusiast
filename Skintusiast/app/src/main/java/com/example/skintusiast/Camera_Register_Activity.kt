@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.View
+import android.widget.Button
 import android.widget.ImageView
 import androidx.core.app.ActivityCompat
 
@@ -14,6 +15,14 @@ class Camera_Register_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_camera_register)
+
+        val tohome= findViewById<Button>(R.id.btndone)
+
+        tohome.setOnClickListener{
+            Intent(this, Home_Activity::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 
     fun photo(view: View) {
