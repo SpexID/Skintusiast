@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#EE85C0"
     tools:context=".Start_Logo_Activity">
 
     <ImageView
