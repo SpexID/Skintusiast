@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style"
+    tools:context=".HOME_add_product_2_Activity">
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <Button
+        android:id="@+id/btnregiscamera8"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Save"
+        android:textColor="#000000"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="276dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="276dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
