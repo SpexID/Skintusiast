@@ -12,11 +12,35 @@
         android:theme="@style/Theme.Skintusiast"
         tools:targetApi="31">
         <activity
+            android:name=".HOME_add_product_desciption"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_add_product_1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_3_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_your_skintype_1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".HOME_skin_goal_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Camera_Register_Activity"
-            android:exported="false">
-
-        </activity>
-
+            android:exported="false" />
         <activity
             android:name=".Register_Activity"
             android:exported="false" />
@@ -37,14 +61,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".Home_Activity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
     </application>
 
 </manifest>
