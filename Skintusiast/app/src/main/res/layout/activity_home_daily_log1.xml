@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style"
+    tools:context=".HOME_daily_log_1_Activity">
+
+    <Button
+        android:id="@+id/btnregiscamera9"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#EF5DA8"
+        android:text="Save"
+        android:textColor="#000000"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="478dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="310dp" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="540dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

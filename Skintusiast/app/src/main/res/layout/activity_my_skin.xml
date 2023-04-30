@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_Skin_Activity">
+
+    <Button
+        android:id="@+id/btnregiscamera12"
+        android:layout_width="139dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Login"
+        android:textColor="#EF5DA8"
+        app:strokeColor="#EF5DA8"
+        app:strokeWidth="1dp"
+        tools:cornerRadius="20dp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <TextView
+        android:id="@+id/textView98"
+        android:layout_width="413dp"
+        android:layout_height="391dp"
+        android:background="@drawable/roundcornerpinksuper"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-175dp" />
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Account"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#EE5DA7"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#EE5DA7"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/button52"
+        android:layout_width="266dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#EE5DA7"
+        android:text="Tes"
+        android:textColor="#000000"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="1dp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
