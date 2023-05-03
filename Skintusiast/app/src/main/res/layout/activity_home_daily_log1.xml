@@ -7,6 +7,19 @@
     android:background="@drawable/bg_style"
     tools:context=".HOME_daily_log_1_Activity">
 
+    <ImageView
+        android:id="@+id/back5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
     <TextView
         android:id="@+id/textView52"
         android:layout_width="wrap_content"
@@ -106,18 +119,8 @@
         app:strokeColor="#FFFFFF"
         app:strokeWidth="1dp" />
 
-    <ImageView
-        android:id="@+id/imageView27"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
-
     <Button
-        android:id="@+id/btnregiscamera9"
+        android:id="@+id/btndaily1"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:layout_marginStart="136dp"
@@ -142,8 +145,8 @@
         android:text="How would you rate your skin  now ? "
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        app:layout_constraintTop_toBottomOf="@+id/imageView27" />
+        app:layout_constraintStart_toStartOf="@+id/back5"
+        app:layout_constraintTop_toBottomOf="@+id/back5" />
 
     <TextView
         android:id="@+id/textView75"

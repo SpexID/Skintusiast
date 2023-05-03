@@ -8,17 +8,20 @@
     tools:context=".HOME_skin_goal_Activity">
 
     <ImageView
-        android:id="@+id/imageView19"
+        android:id="@+id/back7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
 
     <Button
-        android:id="@+id/btnregiscamera2"
+        android:id="@+id/btnskingoal"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:layout_marginStart="136dp"
@@ -161,5 +164,5 @@
         android:textColor="#000000"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView19" />
+        app:layout_constraintTop_toBottomOf="@+id/back7" />
 </androidx.constraintlayout.widget.ConstraintLayout>

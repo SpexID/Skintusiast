@@ -7,6 +7,19 @@
     android:background="@drawable/bg_style"
     tools:context=".HOME_your_skintype_4_Activity">
 
+    <ImageView
+        android:id="@+id/back11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
+
     <TextView
         android:id="@+id/textView160"
         android:layout_width="29dp"
@@ -14,8 +27,8 @@
         android:background="@drawable/roundcornerpink"
         android:text="TextView"
         android:textColor="#EF5DA8"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera17"
-        app:layout_constraintStart_toStartOf="@+id/btnregiscamera17" />
+        app:layout_constraintBottom_toTopOf="@+id/btnskintype4"
+        app:layout_constraintStart_toStartOf="@+id/btnskintype4" />
 
     <TextView
         android:id="@+id/textView161"
@@ -36,7 +49,7 @@
         android:text="TextView"
         android:textColor="#EF5DA8"
         app:layout_constraintBottom_toBottomOf="@+id/textView163"
-        app:layout_constraintEnd_toEndOf="@+id/btnregiscamera17" />
+        app:layout_constraintEnd_toEndOf="@+id/btnskintype4" />
 
     <TextView
         android:id="@+id/textView163"
@@ -50,7 +63,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textView162" />
 
     <Button
-        android:id="@+id/btnregiscamera17"
+        android:id="@+id/btnskintype4"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:layout_marginStart="136dp"
@@ -58,7 +71,7 @@
         android:layout_marginBottom="40dp"
         android:backgroundTint="#EF5DA8"
         android:text="Save"
-        android:textColor="#000000"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -99,8 +112,8 @@
         android:id="@+id/button36"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         android:backgroundTint="#FFFFFF"
         android:text="Reddens"
         android:textColor="#000000"
@@ -119,8 +132,8 @@
         android:text="What happens if your skin is exposed to  the sun for too long?"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView31"
-        app:layout_constraintTop_toBottomOf="@+id/imageView31" />
+        app:layout_constraintStart_toStartOf="@+id/back11"
+        app:layout_constraintTop_toBottomOf="@+id/back11" />
 
     <TextView
         android:id="@+id/textView158"
@@ -132,13 +145,4 @@
         app:layout_constraintStart_toStartOf="@+id/textView159"
         app:layout_constraintTop_toBottomOf="@+id/textView159" />
 
-    <ImageView
-        android:id="@+id/imageView31"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

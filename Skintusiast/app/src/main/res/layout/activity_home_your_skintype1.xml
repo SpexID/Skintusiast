@@ -8,17 +8,20 @@
     tools:context=".HOME_your_skintype_1_Activity">
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/back8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
 
     <Button
-        android:id="@+id/btnregiscamera3"
+        android:id="@+id/btnskintype1"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:layout_marginBottom="40dp"
@@ -112,8 +115,8 @@
         android:text="How do you describe your skin"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView20"
-        app:layout_constraintTop_toBottomOf="@+id/imageView20" />
+        app:layout_constraintStart_toStartOf="@+id/back8"
+        app:layout_constraintTop_toBottomOf="@+id/back8" />
 
     <TextView
         android:id="@+id/textView34"
@@ -122,7 +125,7 @@
         android:background="@drawable/roundcorner"
         android:text="TextView"
         android:textColor="#FFFFFF"
-        app:layout_constraintEnd_toEndOf="@+id/btnregiscamera3"
+        app:layout_constraintEnd_toEndOf="@+id/btnskintype1"
         app:layout_constraintTop_toTopOf="@+id/textView33" />
 
     <TextView
@@ -132,8 +135,8 @@
         android:background="@drawable/roundcornerpink"
         android:text="TextView"
         android:textColor="#EF5DA8"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera3"
-        app:layout_constraintStart_toStartOf="@+id/btnregiscamera3" />
+        app:layout_constraintBottom_toTopOf="@+id/btnskintype1"
+        app:layout_constraintStart_toStartOf="@+id/btnskintype1" />
 
     <TextView
         android:id="@+id/textView33"

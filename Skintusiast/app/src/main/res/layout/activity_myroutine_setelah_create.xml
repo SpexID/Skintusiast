@@ -8,11 +8,14 @@
     tools:context=".myroutine_setelah_create_Activity">
 
     <ImageView
-        android:id="@+id/imageView67"
+        android:id="@+id/back14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:contentDescription="back"
+        android:onClick="back"
+        android:paddingTop="20dp"
+        android:paddingRight="50dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/baseline_arrow_back_ios_24" />
@@ -214,8 +217,8 @@
         android:text="Create New Account"
         android:textColor="#000000"
         android:textSize="20dp"
-        app:layout_constraintStart_toStartOf="@+id/imageView67"
-        app:layout_constraintTop_toBottomOf="@+id/imageView67" />
+        app:layout_constraintStart_toStartOf="@+id/back14"
+        app:layout_constraintTop_toBottomOf="@+id/back14" />
 
     <TextView
         android:id="@+id/textView114"

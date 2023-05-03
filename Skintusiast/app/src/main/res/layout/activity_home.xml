@@ -8,11 +8,11 @@
     tools:context=".Home_Activity">
 
     <Button
-        android:id="@+id/btnregiscamera14"
+        android:id="@+id/btnhomeskingoal"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:backgroundTint="#EF5DA8"
-        android:text="Save"
+        android:text="Set goals"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView202"
@@ -23,11 +23,11 @@
         tools:cornerRadius="20dp" />
 
     <Button
-        android:id="@+id/btnregiscamera20"
+        android:id="@+id/btnhomeaddproduct"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:backgroundTint="#EF5DA8"
-        android:text="Save"
+        android:text="Add"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView205"
@@ -38,11 +38,11 @@
         tools:cornerRadius="20dp" />
 
     <Button
-        android:id="@+id/btnregiscamera18"
+        android:id="@+id/btnhomeskintype"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:backgroundTint="#EF5DA8"
-        android:text="Save"
+        android:text="Quiz"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView206"
@@ -53,11 +53,11 @@
         tools:cornerRadius="20dp" />
 
     <Button
-        android:id="@+id/btnregiscamera19"
+        android:id="@+id/btnhomedailylog"
         android:layout_width="139dp"
         android:layout_height="50dp"
         android:backgroundTint="#EF5DA8"
-        android:text="Save"
+        android:text="Submit"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView207"
@@ -133,7 +133,7 @@
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="@+id/textView202"
         app:layout_constraintStart_toStartOf="@+id/textView202"
-        app:layout_constraintTop_toBottomOf="@+id/btnregiscamera14" />
+        app:layout_constraintTop_toBottomOf="@+id/btnhomeskingoal" />
 
     <TextView
         android:id="@+id/textView206"
@@ -178,7 +178,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Your Skin Goals"
+        android:text="Add Product"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -204,7 +204,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Your Skin Goals"
+        android:text="Find Your Skin Type"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -217,7 +217,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Your Skin Goals"
+        android:text="Daily Log"
         android:textColor="#000000"
         android:textSize="14sp"
         android:textStyle="bold"
@@ -229,7 +229,7 @@
         android:id="@+id/imageView74"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera18"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeskintype"
         app:layout_constraintEnd_toEndOf="@+id/textView206"
         app:layout_constraintStart_toStartOf="@+id/textView206"
         app:layout_constraintTop_toBottomOf="@+id/textView209"
@@ -239,7 +239,7 @@
         android:id="@+id/imageView75"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera14"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeskingoal"
         app:layout_constraintEnd_toEndOf="@+id/textView202"
         app:layout_constraintStart_toStartOf="@+id/textView202"
         app:layout_constraintTop_toBottomOf="@+id/textView210"
@@ -249,7 +249,7 @@
         android:id="@+id/imageView76"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera19"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomedailylog"
         app:layout_constraintEnd_toEndOf="@+id/textView207"
         app:layout_constraintStart_toStartOf="@+id/textView207"
         app:layout_constraintTop_toBottomOf="@+id/textView211"
@@ -259,7 +259,7 @@
         android:id="@+id/imageView81"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnregiscamera20"
+        app:layout_constraintBottom_toTopOf="@+id/btnhomeaddproduct"
         app:layout_constraintEnd_toEndOf="@+id/textView205"
         app:layout_constraintStart_toStartOf="@+id/textView205"
         app:layout_constraintTop_toBottomOf="@+id/textView208"
@@ -288,14 +288,16 @@
         app:layout_constraintTop_toTopOf="@+id/imageView86" />
 
     <ImageView
-        android:id="@+id/imageView84"
+        android:id="@+id/homeroutine"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView83"
-        app:layout_constraintEnd_toStartOf="@+id/imageView85"
-        app:layout_constraintStart_toEndOf="@+id/imageView83"
-        app:layout_constraintTop_toTopOf="@+id/imageView83"
-        app:srcCompat="@drawable/clockpink" />
+        android:onClick="routine"
+        app:layout_constraintBottom_toBottomOf="@+id/homeskin"
+        app:layout_constraintEnd_toStartOf="@+id/homeprofile"
+        app:layout_constraintStart_toEndOf="@+id/homeskin"
+        app:layout_constraintTop_toTopOf="@+id/homeskin"
+        app:srcCompat="@drawable/clockpink"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView86"
@@ -308,23 +310,27 @@
         app:srcCompat="@drawable/baseline_home_24" />
 
     <ImageView
-        android:id="@+id/imageView83"
+        android:id="@+id/homeskin"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginStart="20dp"
+        android:onClick="skin"
         app:layout_constraintBottom_toBottomOf="@+id/textView213"
         app:layout_constraintStart_toEndOf="@+id/textView213"
         app:layout_constraintTop_toTopOf="@+id/textView213"
-        app:srcCompat="@drawable/facewomanpink" />
+        app:srcCompat="@drawable/facewomanpink"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView85"
+        android:id="@+id/homeprofile"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginEnd="40dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView84"
+        android:onClick="profile"
+        app:layout_constraintBottom_toBottomOf="@+id/homeroutine"
         app:layout_constraintEnd_toEndOf="@+id/textView212"
-        app:layout_constraintTop_toTopOf="@+id/imageView84"
-        app:srcCompat="@drawable/pinkprofile" />
+        app:layout_constraintTop_toTopOf="@+id/homeroutine"
+        app:srcCompat="@drawable/pinkprofile"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

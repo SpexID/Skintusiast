@@ -8,7 +8,6 @@ import android.provider.MediaStore
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
-import androidx.core.app.ActivityCompat
 
 private var request_code : Int = 123
 class Camera_Register_Activity : AppCompatActivity() {

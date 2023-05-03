@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".My_Skin_Activity">
 
     <TextView
@@ -24,29 +25,33 @@
         android:text="My skin"
         android:textColor="#EE5DA7"
         android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView78"
-        app:layout_constraintEnd_toStartOf="@+id/imageView77"
-        app:layout_constraintTop_toTopOf="@+id/imageView78" />
+        app:layout_constraintBottom_toBottomOf="@+id/myskinhome"
+        app:layout_constraintEnd_toStartOf="@+id/myskinroutine"
+        app:layout_constraintTop_toTopOf="@+id/myskinhome" />
 
     <ImageView
-        android:id="@+id/imageView77"
+        android:id="@+id/myskinroutine"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginEnd="40dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView80"
-        app:layout_constraintEnd_toStartOf="@+id/imageView80"
-        app:layout_constraintTop_toTopOf="@+id/imageView80"
-        app:srcCompat="@drawable/clockpink" />
+        android:onClick="routine"
+        app:layout_constraintBottom_toBottomOf="@+id/myskinprofile"
+        app:layout_constraintEnd_toStartOf="@+id/myskinprofile"
+        app:layout_constraintTop_toTopOf="@+id/myskinprofile"
+        app:srcCompat="@drawable/clockpink"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
-        android:id="@+id/imageView78"
+        android:id="@+id/myskinhome"
         android:layout_width="24dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
+        android:onClick="myskinhome"
         app:layout_constraintBottom_toBottomOf="@+id/textView203"
         app:layout_constraintStart_toStartOf="@+id/textView203"
         app:layout_constraintTop_toTopOf="@+id/textView203"
-        app:srcCompat="@drawable/baseline_home_24" />
+        app:srcCompat="@drawable/baseline_home_24"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <ImageView
         android:id="@+id/imageView79"
@@ -60,14 +65,16 @@
         app:srcCompat="@drawable/facewomanpink" />
 
     <ImageView
-        android:id="@+id/imageView80"
+        android:id="@+id/myskinprofile"
         android:layout_width="24dp"
         android:layout_height="24dp"
         android:layout_marginEnd="40dp"
+        android:onClick="myskinprofile"
         app:layout_constraintBottom_toBottomOf="@+id/imageView79"
         app:layout_constraintEnd_toEndOf="@+id/textView203"
         app:layout_constraintTop_toTopOf="@+id/imageView79"
-        app:srcCompat="@drawable/pinkprofile" />
+        app:srcCompat="@drawable/pinkprofile"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/btnregiscamera12"
@@ -102,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
-        android:text="Create New Account"
+        android:text="My Skin"
         android:textColor="#000000"
         android:textSize="20dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -197,25 +204,25 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i245626"
+                    android:id="@+id/imageView17"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i52345"
+                    android:id="@+id/imageView16"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/imageView48"
+                    android:id="@+id/imageView14"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
             </LinearLayout>
 
             <LinearLayout
@@ -229,7 +236,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="April, 14"
+                    android:text="April, 4"
                     android:textColor="#000000" />
 
                 <TextView
@@ -257,25 +264,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i1461"
+                    android:id="@+id/imageView20"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i2457"
+                    android:id="@+id/imageView21"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i234672"
+                    android:id="@+id/imageView22"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -317,25 +325,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i1346"
+                    android:id="@+id/imageView26"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i3647"
+                    android:id="@+id/imageView27"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i158"
+                    android:id="@+id/imageView28"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -377,25 +386,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i481"
+                    android:id="@+id/imageView31"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i946"
+                    android:id="@+id/imageView48"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i85"
+                    android:id="@+id/imageView77"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -437,25 +447,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i958"
+                    android:id="@+id/imageView78"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i26"
+                    android:id="@+id/imageView80"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i96"
+                    android:id="@+id/imageView83"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -497,25 +508,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i48"
+                    android:id="@+id/imageView84"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i867"
+                    android:id="@+id/imageView85"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i435"
+                    android:id="@+id/imageView94"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -557,25 +569,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i345"
+                    android:id="@+id/imageView95"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i768"
+                    android:id="@+id/imageView96"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i76"
+                    android:id="@+id/imageView97"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -617,25 +630,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i9"
+                    android:id="@+id/imageView98"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i8"
+                    android:id="@+id/imageView99"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i7"
+                    android:id="@+id/imageView100"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -677,25 +691,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i6"
+                    android:id="@+id/imageView101"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i5"
+                    android:id="@+id/imageView102"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i4"
+                    android:id="@+id/imageView103"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -737,25 +752,26 @@
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/i1"
+                    android:id="@+id/imageView104"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i2"
+                    android:id="@+id/imageView105"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
 
                 <ImageView
-                    android:id="@+id/i3"
+                    android:id="@+id/imageView106"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/baseline_account_box_24" />
+
             </LinearLayout>
 
             <Button
