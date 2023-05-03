@@ -652,4 +652,66 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
 
+    <TextView
+        android:id="@+id/textView216"
+        android:layout_width="321dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundcornerpinksampingnavbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView217"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:text="Profile"
+        android:textColor="#EE5DA7"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView91"
+        app:layout_constraintEnd_toEndOf="@+id/textView216"
+        app:layout_constraintTop_toTopOf="@+id/imageView91" />
+
+    <ImageView
+        android:id="@+id/imageView90"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView92"
+        app:layout_constraintEnd_toStartOf="@+id/imageView93"
+        app:layout_constraintTop_toTopOf="@+id/imageView92"
+        app:srcCompat="@drawable/clockpink" />
+
+    <ImageView
+        android:id="@+id/imageView91"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView216"
+        app:layout_constraintStart_toStartOf="@+id/textView216"
+        app:layout_constraintTop_toTopOf="@+id/textView216"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageView
+        android:id="@+id/imageView92"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView217"
+        app:layout_constraintEnd_toStartOf="@+id/imageView90"
+        app:layout_constraintStart_toEndOf="@+id/imageView91"
+        app:layout_constraintTop_toTopOf="@+id/textView217"
+        app:srcCompat="@drawable/facewomanpink" />
+
+    <ImageView
+        android:id="@+id/imageView93"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView92"
+        app:layout_constraintEnd_toStartOf="@+id/textView217"
+        app:layout_constraintTop_toTopOf="@+id/imageView92"
+        app:srcCompat="@drawable/pinkprofile" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
