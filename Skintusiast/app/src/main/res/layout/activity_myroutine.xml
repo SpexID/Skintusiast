@@ -8,60 +8,146 @@
 
     <Button
         android:id="@+id/btnregiscamera13"
-        android:layout_width="139dp"
+        android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#FFFFFF"
-        android:text="Login"
-        android:textColor="#EF5DA8"
+        android:drawableEnd="@drawable/plus"
+        android:text="Create a new routine"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textafa3"
         app:strokeColor="#EF5DA8"
         app:strokeWidth="1dp"
-        tools:cornerRadius="20dp"
-        tools:layout_editor_absoluteX="136dp"
-        tools:layout_editor_absoluteY="130dp" />
+        tools:cornerRadius="20dp" />
 
     <TextView
         android:id="@+id/textView99"
         android:layout_width="412dp"
         android:layout_height="526dp"
+        android:layout_marginTop="200dp"
         android:background="@drawable/roundcornergradient"
         android:textColor="#FFFFFF"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="215dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView103"
+        android:id="@+id/textafa3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="40dp"
         android:text="Create New Account"
         android:textColor="#000000"
         android:textSize="20dp"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="61dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button48"
-        android:layout_width="269dp"
-        android:layout_height="118dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Tes"
-        android:textColor="#000000"
-        app:cornerRadius="10dp"
-        app:strokeColor="#FFFFFF"
-        app:strokeWidth="1dp"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="320dp" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundcorner"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout2"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
-    <Button
-        android:id="@+id/button54"
-        android:layout_width="269dp"
-        android:layout_height="118dp"
-        android:backgroundTint="#FFFFFF"
-        android:text="Tes"
-        android:textColor="#000000"
-        app:cornerRadius="10dp"
-        app:strokeColor="#FFFFFF"
-        app:strokeWidth="1dp"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="459dp" />
+        <ImageView
+            android:id="@+id/imsdfs"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/_166425" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textdfs93"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:text="Morning Routine"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textsdfsdew94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08 : 00 am"
+                android:textColor="#000000"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/texfsdfew97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everyday"
+                android:textColor="#000000"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/roundcorner"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView99">
+
+        <ImageView
+            android:id="@+id/imagesdfsd41"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            app:srcCompat="@drawable/_242545" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textfsfds93"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center|left"
+                android:text="Morning Routine"
+                android:textColor="#000000"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textVfsdfw94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="08 : 00 am"
+                android:textColor="#000000"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/texsdfsdiew97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Everyday"
+                android:textColor="#000000"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
