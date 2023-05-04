@@ -96,6 +96,7 @@
         android:drawableEnd="@drawable/plus"
         android:text="Create a new routine"
         android:textColor="#000000"
+        app:cornerRadius="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"

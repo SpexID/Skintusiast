@@ -17,7 +17,7 @@ class Start_Logo_Activity : AppCompatActivity() {
             WindowManager.LayoutParams.FLAG_FULLSCREEN
         )
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, Signin_Activity::class.java)
+            val intent = Intent(this, onboarding::class.java)
             startActivity(intent)
             finish()
         }, 3000)
