@@ -28,7 +28,7 @@
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="40dp"
         android:backgroundTint="#EF5DA8"
-        android:text="Save"
+        android:text="Next"
         android:textColor="#FFFFFF"
         android:textStyle="bold"
         app:cornerRadius="20dp"

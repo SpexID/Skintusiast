@@ -41,12 +41,12 @@
 
     <TextView
         android:id="@+id/retake"
-        android:layout_width="48dp"
+        android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginBottom="20dp"
         android:gravity="bottom|center"
         android:onClick="retake"
-        android:text="Oily"
+        android:text="Retake the quiz"
         android:textColor="#000000"
         android:textStyle="normal"
         app:layout_constraintBottom_toTopOf="@+id/btnskindone"
@@ -55,7 +55,7 @@
 
     <TextView
         android:id="@+id/btnrequiz"
-        android:layout_width="20dp"
+        android:layout_width="100dp"
         android:layout_height="1dp"
         android:layout_marginTop="45dp"
         android:background="@color/black"
